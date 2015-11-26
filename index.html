@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Kramer|Lesson6</title>
+	<link rel="stylesheet" href="styles/styles1.css">
+	<link href='https://fonts.googleapis.com/css?family=Droid+Sans:700,400' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="wrapper">
+	<header id="header">
+		<div class="nav-menu">
+			<h1><a data-scroll='hero' href="#"><img class="slow-anim" src="images/logo.png" alt="Kramer logo"></a></h1>
+			<nav class="menu-links">
+				<ul>
+					<li><a data-scroll='about' href="#">About</a></li>
+					<li><a data-scroll='portfolio' href="#">Portfolio</a></li>
+					<li><a data-scroll='team' href="#">Team</a></li>
+					<li><a data-scroll='contact' href="#">Contact</a></li>
+				</ul>
+			</nav>
+		</div>	
+	</header>
+	<section id="hero" data-anchor='hero'>
+		<div class="section-wrapper">
+		 	<h2 class="welcome-message">Welcome To Kramerica Industries</h2>
+			<a class="explore-btn slow-anim" data-scroll='about' href="#"><span class="fa fa-chevron-down"></span>Explore</a>
+			<video autoplay loop class="bg-hero">
+				<source src="videos/main-video.webm" type="video/webm">
+        		<source src="videos/main-video.ogv" type="video/ogg">
+        		<source src="videos/main-video.mp4" type="video/mp4">
+			</video>
+		</div>
+	</section>
+	<section id="about" data-anchor='about'>
+		<div class="section-wrapper">
+			<h2>About</h2>
+			<p class="about-info">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit.</p>
+			<ul class="services-block">
+				<li class="settings-info">
+					<img src="images/settings_bs.png" alt="Settings icon">
+					<h3>Services</h3>
+					<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,</p>
+				</li>
+				<li class="retina-info">
+					<img src="images/retina_bs.png" alt="Retina icon">
+					<h3>Retina Display</h3>
+					<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,</p>
+				</li>
+				<li class="support-info">
+					<img src="images/support_bs.png" alt="Support icon">
+					<h3>Full Support</h3> 
+					<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,</p>
+				</li>
+			</ul>
+		</div>
+	</section>
+	<section id="portfolio" data-anchor='portfolio'>
+		<div class="section-wrapper">
+			<h2>Portfolio</h2>
+			<nav class="portfolio-menu">
+				<ul>
+					<li class="filter" data-filter="all">All</li>
+					<li class="filter" data-filter=".design">Design</li>
+					<li class="filter" data-filter=".web">Web</li>
+					<li class="filter" data-filter=".illustration">Illustration</li>
+					<li class="filter" data-filter=".motion">Motion</li>
+				</ul>
+			</nav>
+			<div class="projects">
+				<ul id="Container">
+					<li class="mix web" data-myorder="1">
+						<a href="#"><img src="images/ph_01.jpg" alt="Project 1"></a>
+						<div class="blocks-overlay slow-anim">Project Title<a class="slow-anim" href="#">View Project</a></div>
+					</li>
+					<li class="mix illustration" data-myorder="2">
+						<a href="#"><img src="images/ph_02.jpg" alt="Project 2"></a>
+						<div class="blocks-overlay slow-anim">Project Title<a class="slow-anim" href="#">View Project</a></div>
+					</li>
+					<li class="mix illustration" data-myorder="3">
+						<a href="#"><img src="images/ph_03.jpg" alt="Project 3"></a>
+						<div class="blocks-overlay slow-anim">Project Title<a class="slow-anim" href="#">View Project</a></div>
+					</li>
+					<li class="mix design" data-myorder="4">
+						<a href="#"><img src="images/ph_04.jpg" alt="Project 4"></a>
+						<div class="blocks-overlay slow-anim">Project Title<a class="slow-anim" href="#">View Project</a></div>
+					</li>
+					<li class="mix motion" data-myorder="5">
+						<a href="#"><img src="images/ph_05.jpg" alt="Project 5"></a>
+						<div class="blocks-overlay slow-anim">Project Title<a class="slow-anim" href="#">View Project</a></div>
+					</li>
+					<li class="mix illustration" data-myorder="6">
+						<a href="#"><img src="images/ph_06.jpg" alt="Project 6"></a>
+						<div class="blocks-overlay slow-anim">Project Title<a class="slow-anim" href="#">View Project</a></div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<section id="team" class="team-block" data-anchor='team'>
+		<div class="section-wrapper">
+			<h2>Team</h2>
+			<ul class="team">
+				<li class="person-1">
+					<img src="images/kramer.png" alt="Photo Constanza">
+					<h3 class="name-team">Cosmo Kramer</h3>
+					<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,</p>
+					<ul class="soc-networks">
+						<li><a href="#"><span class="fa fa-twitter"></span></a></li>
+						<li><a href="#"><span class="fa fa-instagram"></span></a></li>
+					</ul>
+				</li>
+				<li class="person-2">
+					<img src="images/constanza.png" alt="Photo Constanza">
+					<h3 class="name-team">George Constanza</h3>
+					<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,</p>
+					<ul class="soc-networks">
+						<li><a href="#"><span class="fa fa-twitter"></span></a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</section>
+	<section id="contact" data-anchor='contact'>
+		<div class="section-wrapper">
+			<h2>Contact</h2>
+			<p>Please contact us and we can discuss work!</p>
+			<form action="" method="post">
+				<ul>
+					<li><input id="name" type="text" placeholder="Name"></li>
+					<li><input id="email" type="email" placeholder="Email"></li>
+					<li><textarea id="text-area" placeholder="Message"></textarea></li>
+					<li><input id="submit" class="slow-anim" type="submit" value="Submit"></li>
+				</ul>
+			</form>
+			<dl class="vcard contact-block">
+				<dt>Adress</dt>
+				<dd class="adress">129 West 81st Street New York, NY 10024</dd>
+				<dt>Email</dt>
+				<dd class="email">giddyup@kramer.com</dd>
+				<dt>Phone</dt>
+				<dd class="phone">+1 212-532-1256</dd>
+			</dl>
+		</div>
+	</section>
+	<footer>
+		<div class="section-wrapper">
+			<a data-scroll='hero' href="#"><img class="slow-anim" src="images/logo.png" alt="Kramer logo"></a>
+			<ul class="vcard authors-info">
+				<li>
+					<span class="adress">129 West 81st Street New York, NY 10024</span>
+				</li>
+				<li>
+					<span class="email">giddyup@kramer.com</span>
+					<span class="phone">+1 212-532-1256</span>
+				</li>
+				<li>
+					<ul class="bg-soc-networks">
+						<li>
+							<a href="#"><span class="fa fa-twitter"></span></a>
+						</li>
+						<li>
+							<a href="#"><span class="fa fa-facebook"></span></a>
+						</li>
+						<li>
+							<a href="#"><span class="fa fa-instagram"></span></a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</footer>
+</div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="http://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"></script>
+<script src="js/headhesive.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
